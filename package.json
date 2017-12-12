@@ -1,0 +1,34 @@
+{
+  "name": "redux-parcel",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development parcel index.html ",
+    "build": "cross-env NODE_ENV=production parcel build index.html --no-minify --public-url /"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.2.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "autoprefixer": "^7.2.2",
+    "babel-preset-react-app": "^3.1.0",
+    "react-hot-loader": "^3.1.3",
+    "semantic-ui-css": "^2.2.12"
+  },
+  "postcss": {
+    "modules": false,
+    "plugins": {
+      "autoprefixer": {
+        "browsers": [
+          ">1%",
+          "last 4 versions",
+          "Firefox ESR",
+          "not ie < 9"
+        ],
+        "flexbox": "no-2009"
+      }
+    }
+  },
+  "devDependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "cross-env": "^5.1.1"
+  }
+}
