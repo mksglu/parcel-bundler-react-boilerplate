@@ -14,13 +14,13 @@
       "cross-env NODE_ENV=production parcel build src/index.html --public-url ./"
   },
   "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
   },
 
   "devDependencies": {
     "parcel-bundler": "^1.2.0",
-    "autoprefixer": "^7.2.2",
+    "autoprefixer": "^8.5.2",
     "babel-preset-minify": "0.5.0-alpha.367cc048",
     "cross-env": "^5.1.1",
     "eslint": "^4.18.1",
